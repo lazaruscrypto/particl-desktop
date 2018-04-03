@@ -11,6 +11,7 @@ import { BuyComponent } from './buy/buy.component';
 import { SellComponent } from './sell/sell.component';
 import { AddItemComponent } from './sell/add-item/add-item.component';
 import { FavoriteComponent } from './shared/favorite/favorite.component';
+import { CheckoutProcessComponent } from './buy/checkout-process/checkout-process.component';
 
 
 
@@ -27,7 +28,8 @@ import { FavoriteComponent } from './shared/favorite/favorite.component';
     BuyComponent,
     SellComponent,
     AddItemComponent,
-    FavoriteComponent
+    FavoriteComponent,
+    CheckoutProcessComponent
   ],
   entryComponents: [
     PreviewListingComponent
